@@ -81,7 +81,7 @@ class OrganisasiTree:
             hasil = self.search_node(child, keyword)
             if hasil:
                 return hasil
-            return None
+        return None
 
     # 3a. IMPLEMENTASI ALGORITMA TRAVERSAL: Preorder
     # Skenario: Modifikasi khusus untuk General Tree (bukan tree yg cabang)
